@@ -50,9 +50,9 @@ function Get-Fullname($firstName, $lastName)
 }
 
 # Note when calling the function with parameters, do not use commas or ()
-Get-Fullname "Arcane" "Code"
+Get-Fullname "Travis" "Dunbar"
 
-$myVar = "Arcane"
+$myVar = "Travis Dunbar"
 
 Get-Fullname $myVar "Code"
 
